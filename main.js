@@ -90,6 +90,39 @@ welcome = "benvenuti alla rassegna";
 console.log(welcome);
 
 
+//NOMENCLATURA: è l'insieme di regole e convenzioni per la scelta dei nomi delle variabili, costanti, funzioni, ecc. in un linguaggio di programmazione
+
+//NOMENCLATURA DI VARIABILE/CONSTANTE: è importante scegliere nomi significativi e descrittivi per le variabili e le costanti, in modo da rendere il codice più leggibile e comprensibile. Ad esempio, invece di chiamare una variabile "x", è meglio chiamarla "numeroDiStudenti" se contiene il numero di studenti in una classe.
+
+//NOMENCLATURA DELLE VARIABILI/COSTANTI:
+
+// 1-NON PUO CONTENERE SPAZI: i nomi delle variabili e delle costanti non possono contenere spazi, ma possono utilizzare il camelCase (es. numeroDiStudenti) o l'underscore (es. numero_di_studenti) per separare le parole.
+
+// 2-NON PUO CONTENERE CARATTERI SPECIALI: i nomi delle variabili e delle costanti non possono contenere caratteri speciali come @, #, $, %, ecc., ma possono utilizzare lettere, numeri e underscore.
+
+// 3-NON PUO INIZIARE CON UN NUMERO: i nomi delle variabili e delle costanti non possono iniziare con un numero, ma possono contenere numeri dopo la prima lettera (es. numero1).
+
+// 4-NON PUO ESSERE UNA PAROLA RISERVATA: i nomi delle variabili e delle costanti non possono essere parole riservate del linguaggio, come var, let, const, function, ecc., ma devono essere parole che non hanno un significato speciale in JavaScript.
+
+// 5-DEVE ESSERE DESCRITTIVO: i nomi delle variabili e delle costanti devono essere descrittivi del loro contenuto o scopo, in modo da rendere il codice più leggibile e comprensibile. Ad esempio, invece di chiamare una variabile "x", è meglio chiamarla "numeroDiStudenti" se contiene il numero di studenti in una classe.
+
+// 6- NON PUO ESSERE UGUALE AD UN ALTRO NOME GIA USATO: i nomi delle variabili e delle costanti non possono essere uguali a quelli già utilizzati in precedenza, altrimenti si verificherà un errore di sintassi o di runtime. Ad esempio, se si dichiara una variabile "numero" e poi si tenta di dichiarare un'altra variabile con lo stesso nome, si otterrà un errore.
+
+// 7-NON PUO CONTENERE MAIUSCOLE: i nomi delle variabili e delle costanti non possono contenere lettere maiuscole, ma possono utilizzare solo lettere minuscole, numeri e underscore. Ad esempio, invece di chiamare una variabile "NumeroDiStudenti", è meglio chiamarla "numero_di_studenti" o "numeroDiStudenti".
+
+
+//COSTANT:
+//Conventionalmente, i nomi delle costanti sono scritti in maiuscolo e separati da underscore (es. PI, MAX_VALUE) per distinguerli dalle variabili, ma questa è solo una convenzione e non una regola obbligatoria. In JavaScript, è possibile utilizzare lettere minuscole per i nomi delle costanti, ma è consigliabile seguire la convenzione per rendere il codice più leggibile e comprensibile.
+
+//Il nome di una variabile/ constante NON può iniziare con un numero, non può contenere spazi, non può essere una parola riservata (come var, let, const, function, ecc.), e deve essere descrittivo del suo contenuto o scopo
+
+
 // var: ha una portata globale o di funzione, può essere riassegnata e ridefinita
 // let: ha una portata di blocco, può essere riassegnata ma non ridefinita
 // const: ha una portata di blocco, non può essere riassegnata né ridefinita
+
+
+//DIAGRAMMA DI FLUSSO:
+//  è una rappresentazione grafica del flusso di esecuzione di un programma, che mostra le operazioni, le decisioni e i cicli che si verificano durante l'esecuzione del codice. I diagrammi di flusso sono utili per visualizzare la logica di un programma e identificare eventuali errori o inefficienze. I simboli comuni utilizzati nei diagrammi di flusso includono ovali (per l'inizio e la fine), rettangoli (per le operazioni), rombi (per le decisioni) e frecce (per indicare il flusso di esecuzione).
+
+//LA CONDIZIONE DI UN CICLE, DEVE PRIMA O POI DIVENTARE FALSA, ALTRIMENTI IL CICLO DIVENTA INFINITO E BLOCCA L'ESecuzione DEL PROGRAMMA
