@@ -2,7 +2,7 @@
 
 //I TIPI DI DATO
 
-//PRIMITIVI: immutabile e lrgeri
+//PRIMITIVI: immutabile e leggeri
 
 // NON PRIMIVITI O STRUTTURALI: Mutabili e pesanti
 
@@ -49,7 +49,7 @@
 //Math.floor(Math.random) = (max-min+1) + min);
 
 
-// .tofixed(): arrotondare il numero alla cifra decimale che voglio. MI trasformo il dato da un numero a striga.
+// .tofixed(): arrotondare il numero alla cifra decimale che voglio. Ma mi trasforma il dato da un numero a striga.
 
 //Dog syntax
 //let number = 5.564;
@@ -60,6 +60,12 @@
 
 //quanti tipi di apici esistono in js: 3   '' "" ``backtick
 // per fare la backtick:  Alt + 96
+
+//let name = "matteo";
+//console.log('ciao a tutti mi chiamo ' + name);
+
+let name = "pippo"
+console.log(`ciao a tutti mi chiamo ${name}  `);
  
 //console.log(typeof"ciao");
 
@@ -156,6 +162,6 @@
 
 //console.log( typeof +('5') );
 // console.log( +true)= 1
-console.log( +false)
+console.log( +false);
 
 
