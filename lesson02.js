@@ -70,7 +70,9 @@ console.log(`ciao a tutti mi chiamo ${name}  `);
 //console.log(typeof"ciao");
 
 //Concatenazione tra stringhe
+
 // bec slesh n :    /n per mandare a capo una stringa
+
 //let nome = "pippo"
 //console.log('ciao a tutti mi chiamo \n' + nome);
 
@@ -81,7 +83,7 @@ console.log(`ciao a tutti mi chiamo ${name}  `);
 //console.log(saluto);
 
 //Type cohertion: js si accorgersi che sono due dati diversi, non per questo va in errore ma cerca di andare avanti  e converte uno dei due dati nel tipo dell'altro
-//console.log(  '5' + 5)
+//console.log(  '5' + 5)    se invece converto 5 in ciao.  ('ciao- 5) --> il resultato sara NAN, Not a Number, valore assorbente, qualsiasi operazione con NAN ci restituisce sempre NAN
 
 //NAN  Not a Number, valore assorbente
 
